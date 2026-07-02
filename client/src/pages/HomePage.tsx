@@ -1,8 +1,11 @@
+import Navbar from "../components/Navbar";
+ 
 function HomePage() {
     return (
         <main>
+            <Navbar/>
             <h1>🏥 Hospital Appointment System</h1>
-            <p>This is the Home Page.</p>
+            <p>Welcome to our hospital appointment system.</p>
         </main>
     );
 }
