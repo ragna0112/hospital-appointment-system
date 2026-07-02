@@ -4,8 +4,13 @@ function HomePage() {
     return (
         <>
             <main>
-                <h1>Hospital Appointment System</h1>
-                <p>Book hospital appointments online quickly and conveniently</p>
+                <h1 className="text-4xl font-bold text-blue-600">
+                    Hospital Appointment System
+                </h1>
+
+                <p>
+                    Book hospital appointments online quickly and conveniently
+                </p>
                 <br/>
                 <Link to="/login">
                     <button>Login</button>
