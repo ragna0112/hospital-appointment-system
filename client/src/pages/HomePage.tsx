@@ -1,28 +1,10 @@
-import { Link } from "react-router-dom";
- 
+import Hero from "../components/Hero";
+
 function HomePage() {
     return (
-        <>
-            <main>
-                <h1 className="text-4xl font-bold text-blue-600">
-                    Hospital Appointment System
-                </h1>
-
-                <p>
-                    Book hospital appointments online quickly and conveniently
-                </p>
-                <br/>
-                <Link to="/login">
-                    <button>Login</button>
-                </Link>
-
-                {" "}
-
-                <Link to="/register">
-                    <button>Register</button>
-                </Link>
-            </main>
-        </>
+        <main>
+            <Hero />
+        </main>
     );
 }
 
