@@ -5,11 +5,11 @@ function Navbar() {
         <nav className="flex items-center justify-between px-8 py-5 border-b border-gray-200">
             <Link
                 to="/"
-                className="text=2xl font-bold text-blue-600">
+                className="text-3xl font-bold text-blue-600">
                 CareConect
             </Link>
 
-            <div className="flex items=center gap-8">
+            <div className="flex items-center gap-8">
                 <Link
                     to="/"
                     className="text-gray-700 hover:text-blue-600 transition">
